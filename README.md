@@ -4,6 +4,7 @@
 - [Upravljanje korisnicima i kontrola pristupa na Linux OS](#upravljanje-korisnicima-i-kontrola-pristupa-na-linux-os)
   - [A. Dodavanje novog korisnika](#a-dodavanje-novog-korisnika)
   - [B. Prava pristupa datotekama](#b-prava-pristupa-datotekama)
+  - [C. Linux procesi i kontrola pristupa](#c-linux-procesi-i-kontrola-pristupa)
   - [Reference](#reference)
 
 ## FESB, Računarstvo, 2017/18
@@ -209,7 +210,6 @@ Linux procesi su programi koji se trenutno izvršavaju u odgovarajućem adresnom
     ```
 
 5. Koristeći znanja stečena u prethodnim zadacima pokušajte realizirati program koji će omogućiti _non-root_ korisniku čitanje sadržaja datoteke `/etc/shadow`.
-
 
 #### Reference
 
