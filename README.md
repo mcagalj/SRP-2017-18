@@ -11,7 +11,7 @@
 
 Na ovom GitHub repozitoriju profesor će objavljivati upute, dijelove koda, konfiguracijske skripte, i druge sugestije vezane uz predmet a sa svrhom povećanja produktivnosti studenta tijekom rada na laboratorijskim vježbama.
 
-### Python i Scapy skripte
+## Python i Scapy skripte
 
 U direktoriju [scapy](/scapy) možete naći nekoliko Python skripti za testiranje i demonstraciju određenih ranjivosti računalnih mreža. Skripte koriste izvrnu biblioteku za manipulaciju mrežnih paketa [Scapy](http://www.secdev.org/projects/scapy).
 
@@ -19,13 +19,13 @@ Za pokretanje skripti koristite Linux OS (npr. [Kali Linux](https://www.kali.org
 
 **VAŽNO:** _Skripte služe isključivo u edukacijske svrhe i kao takve trebaju se koristiti u kontroliranom okruženju. Ne odgovaramo za eventualnu štetu nastalu zloporabom ovih skripti._
 
-### Upravljanje korisnicima i kontrola pristupa na Linux OS
+## Upravljanje korisnicima i kontrola pristupa na Linux OS
 
 U okviru ove vježe student će se upoznati s osnovnim postupkom upravljanja korisničkim računima na Linux OS-u. Pri tome će se poseban naglasak staviti na **kontrolu pristupa (eng. _access control_)** datotekama, programima i drugim resursima Linux sustava.
 
 Za listu i opis Linux naredbi potrebnih za realizaciju zadataka u nastavku konzultirajte dokument naveden pod [Reference](#reference).
 
-#### A. Dodavanje novog korisnika
+### A. Dodavanje novog korisnika
 
 Na Linux OS-u svaka datoteka ili program (_binary executable file_) ima vlasnika (_user_). Svakom korisniku pridjeljen je jedinstveni identifikator _User ID (UID)_. Svaki korisnik mora pripadati barem jednoj grupi (_group_), pri čemu više korisnika može dijeliti istu grupu. Linux grupe također imaju jedinstvene identifikatore _Group ID (GID)_.
 
@@ -51,7 +51,7 @@ uid=0(root) gid=0(root) groups=0(root)
     Retype new UNIX password:
     ```
 
-#### B. Prava pristupa datotekama
+### B. Prava pristupa datotekama
 
 1. Logirajte se u sustav kao novi korisnik (npr. `mcagalj`). U `home` direktoriju kreirajte direktorij `Sigurnost`. U tom direktoriju kreirajte datoteku `sigurnost.txt` te u nju upište proizvoljni tekst. Korisne naredbe `mkdir`, `cd`, `echo "Ovo je moj tekst" > sigurnost.txt`.
 
@@ -129,7 +129,7 @@ uid=0(root) gid=0(root) groups=0(root)
 
 5. Koristeći saznanja iz prethodnog zadatka pokušajte vašem prvom korisniku (u našem primjeru `mcagalj`) omogućiti pristup sadržaju datoteke `/etc/shadow`. _Hint:_ Provjerite primarnu grupu navedene datoteke (možete koristit naredbu `ls -lh /etc/shadow`).
 
-#### C. Linux procesi i kontrola pristupa
+### C. Linux procesi i kontrola pristupa
 
 Linux procesi su programi koji se trenutno izvršavaju u odgovarajućem adresnom prostoru. Trenutno aktivne procese možete izlistati korištnjem naredbe `ps -ef` (`ps -aux` za detaljniji prikaz). Svakom procesu dodjeljen je jedinstveni identifikator _process identifier (PID)_.
 
@@ -211,6 +211,6 @@ Linux procesi su programi koji se trenutno izvršavaju u odgovarajućem adresnom
 
 5. Koristeći znanja stečena u prethodnim zadacima pokušajte realizirati program koji će omogućiti _non-root_ korisniku čitanje sadržaja datoteke `/etc/shadow`.
 
-#### Reference
+### Reference
 
 - [_Linux Security_ by Paul Cobbaut](http://linux-training.be/linuxsec.pdf)
