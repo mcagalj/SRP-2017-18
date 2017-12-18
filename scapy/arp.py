@@ -1,7 +1,6 @@
 #!/usr/bin/python
 from scapy.all import *
 from time import sleep
-import sys
 
 
 def ping(dst='10.0.1.100', msg='Hello world'):
