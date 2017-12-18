@@ -109,7 +109,7 @@ uid=0(root) gid=0(root) groups=0(root)
     Novom korisniku (`iivic`) možete omogućiti članstvo u dopunskoj grupi `mcagalj` na sljedeći način:
 
     ```bash
-    root@kali:~$ usermod -G mcagalj iivić
+    root@kali:~$ usermod -G mcagalj iivic
     ```
 
     Popis grupa i informacija o grupama na Linux OS-u nalazi se u datoteci `/etc/group`.
@@ -122,7 +122,7 @@ uid=0(root) gid=0(root) groups=0(root)
     root@kali:~$ cat /etc/group | grep mcagalj
 
     # Ukloni korisnika `iivic`-a iz dopunske grupe
-    root@kali:~$ usermod -G "" iivić
+    root@kali:~$ usermod -G "" iivic
     ```
 
     Uvjerite se da ste realizirali scenarij u kojem ste vlasniku datoteke `sigurnost.txt` uskratili pristup istoj dok istovremeno novi korisnik (npr. `iivic`) može pristupiti datoteci.
