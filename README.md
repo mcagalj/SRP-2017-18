@@ -182,7 +182,7 @@ Linux procesi su programi koji se trenutno izvršavaju u odgovarajućem adresnom
 
 4. Pokrenite _executable_ `proc` kao korisnik `iivic`). Uvjerite se da je rezultat ovog identičan onom prilikom izvršavanja Python skripte.
 
-    Da bi omogućili drugom korisniku (`iivic`) uspješno izvršavanje programa `proc` koristit ćemo Linux **`setuid`** dopuštenje. Postavljanjem `setuid` bita na program `proc`, Linux nam dozvoljava izvršavanje ovog programa s dopuštenjima koja odgvaraju dopuštenjima vlasnika ovog programa (u našem primjeru s dopuštenjima koje ima `mcagalj`).
+    Da bi omogućili drugom korisniku (`iivic`) uspješno izvršavanje programa `proc` koristit ćemo Linux **`setuid`** dopuštenje. Postavljanjem `setuid` bita na program `proc`, Linux nam dozvoljava izvršavanje ovog programa s dopuštenjima koja odgovaraju dopuštenjima vlasnika ovog programa (u našem primjeru s dopuštenjima koje ima `mcagalj`).
 
     Prije postavljanja `setuid` bita za program `proc` provjerite i zabilježite trenutačna dopuštenja definirana za program `proc`:
 
