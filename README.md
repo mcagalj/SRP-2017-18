@@ -216,11 +216,7 @@ Linux procesi su programi koji se trenutno izvršavaju u odgovarajućem adresnom
 
 - [_Linux Security_ by Paul Cobbaut](http://linux-training.be/linuxsec.pdf)
 
-<<<<<<< HEAD
 ## Role-based access control (RBAC) in web applications
-=======
-## Role-based access control (RBAC) in web application
->>>>>>> 2544c0122a56cc4634af83a0cacb29db88310bac
 
 Dok je prethodnoj vježbi fokus bio na diskrecijskoj kontroli pristupa, u okviru ove vježe zadatak je implementirati RBAC kontrolu pristupa za web aplikaciju. Web aplikacija je pisana primjenom u izvrsnom [Flask](http://flask.pocoo.org/) _microframework_-u za Python.
 
