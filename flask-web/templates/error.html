@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Security@FESB</title>
+    <style>
+            * {
+                box-sizing: border-box;
+            }
+    
+            body {
+              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+              font-size: 1.2em;
+              text-align: center;
+              padding: 2em;
+            }
+    </style>            
+</head>
+<body>
+    <h1>{{ config.TITLE }}</h1>
+{% if error %}
+        <p>{{ error }}</p>
+{% else %}
+        <p>Error occured. Please try again later.</p>
+{% endif %}    
+</body>
+</html>
