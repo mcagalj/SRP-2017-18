@@ -6,6 +6,7 @@
   - [B. Prava pristupa datotekama](#b-prava-pristupa-datotekama)
   - [C. Linux procesi i kontrola pristupa](#c-linux-procesi-i-kontrola-pristupa)
   - [Reference](#reference)
+- [Role-based access control (RBAC) in web applications](#role-based-access-control-rbac-in-web-applications)
 
 ## FESB, Računarstvo, 2017/18
 
@@ -214,3 +215,13 @@ Linux procesi su programi koji se trenutno izvršavaju u odgovarajućem adresnom
 ### Reference
 
 - [_Linux Security_ by Paul Cobbaut](http://linux-training.be/linuxsec.pdf)
+
+## Role-based access control (RBAC) in web applications
+
+Dok je prethodnoj vježbi fokus bio na diskrecijskoj kontroli pristupa, u okviru ove vježe zadatak je implementirati RBAC kontrolu pristupa za web aplikaciju. Web aplikacija je pisana primjenom u izvrsnom [Flask](http://flask.pocoo.org/) _microframework_-u za Python.
+
+Kod potreban za izvršenje ovog zadatka nalazi se na ovom repozitoriju unutar direktorija [flask-web](/flask-web). Nakon što ste skinuli kod, a prije pokretanja web aplikacije, instalirajte potrebne Python module. U lokalnom direktoriju gdje se nalazi datoteka `requirements.txt` izvršite sljedeću naredbu:
+
+```bash
+pip install -r requirements.txt
+```
